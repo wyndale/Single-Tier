@@ -1,0 +1,72 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-section, .notes-section {
+    background: white;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 98%;
+    padding: 8px;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+.note-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+    .note-item h3 {
+        margin-top: 25px;
+        font-size: 1.5rem;
+    }
+
+
+.edit-section {
+    background: #fff3e0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+}

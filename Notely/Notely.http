@@ -1,0 +1,31 @@
+@Notely_HostAddress = http://localhost:5002
+
+### Get all notes
+GET {{Notely_HostAddress}}/api/Notes
+Accept: application/json
+
+### Get a single note by ID (replace `1` with an actual ID)
+GET {{Notely_HostAddress}}/api/Notes/1
+Accept: application/json
+
+### Create a new note
+POST {{Notely_HostAddress}}/api/Notes
+Content-Type: application/json
+
+{
+  "title": "My First Note",
+  "content": "This is the content of my first note."
+}
+
+### Update an existing note (replace `1` with an actual ID)
+PUT {{Notely_HostAddress}}/api/Notes/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Updated Note Title",
+  "content": "Updated content of the note."
+}
+
+### Delete a note (replace `1` with an actual ID)
+DELETE {{Notely_HostAddress}}/api/Notes/1
