@@ -1,6 +1,6 @@
 # Single-Tier
 
-# Notes Management System - School Lab Project
+# Notes Management Application
 
 A simple CRUD application for managing notes with ASP.NET Core backend and vanilla JavaScript frontend.
 
